@@ -8,7 +8,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-$username = $_POST['nome'];
+$nome = $_POST['nome'];
 $email = $_POST['email'];
 $ddi = $_POST['ddi'];
 $celular = $_POST['celular'];
@@ -44,7 +44,7 @@ try {
     $mail->isHTML(true);                                  //Set email format to HTML
     $mail->Subject = 'Novo contato site Italian Toldos';
     $mail->Body    = utf8_decode("
-    Nome: " . $username . "<br/> 
+    Nome: " . $none . "<br/> 
     E-mail: " . $email . "<br/>
     DDI: " . $ddi . "<br/>
     Celular: " . $celular);
