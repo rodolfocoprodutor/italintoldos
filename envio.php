@@ -51,7 +51,7 @@ try {
     //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();
-    header('Location: https://italiantoldos.com.br/obrigado');
+    header('Location: https://italiantoldos.com.br');
 
 } catch (Exception $e) {
     echo "Erro ao enviar os seus dados: {$mail->ErrorInfo}";
