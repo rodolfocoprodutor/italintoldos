@@ -1,0 +1,69 @@
+# robots.txt
+User-agent: Googlebot
+Disallow: /404.html
+Disallow: /obrigado.html
+
+User-agent: googlebot-image
+Disallow: /404.html
+Disallow: /obrigado.html
+
+User-agent: googlebot-mobile
+Disallow: /404.html
+Disallow: /obrigado.html
+
+User-agent: MSNBot
+Disallow: /404.html
+Disallow: /obrigado.html
+
+User-agent: Slurp
+Disallow: /404.html
+Disallow: /obrigado.html
+
+User-agent: Teoma
+Disallow: /404.html
+Disallow: /obrigado.html
+
+User-agent: Gigabot
+Disallow: /404.html
+Disallow: /obrigado.html
+
+User-agent: Robozilla
+Disallow: /404.html
+Disallow: /obrigado.html
+
+User-agent: Nutch
+Disallow: /404.html
+Disallow: /obrigado.html
+
+User-agent: ia_archiver
+Disallow: /404.html
+Disallow: /obrigado.html
+
+User-agent: baiduspider
+Disallow: /404.html
+Disallow: /obrigado.html
+
+User-agent: naverbot
+Disallow: /404.html
+Disallow: /obrigado.html
+
+User-agent: yeti
+Disallow: /404.html
+Disallow: /obrigado.html
+
+User-agent: yahoo-mmcrawler
+Disallow: /404.html
+Disallow: /obrigado.html
+
+User-agent: psbot
+Disallow: /404.html
+Disallow: /obrigado.html
+
+User-agent: yahoo-blogs/v3.9
+Disallow: /404.html
+Disallow: /obrigado.html
+
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://remvita.com.br/sitemap.xml
