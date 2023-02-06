@@ -31,6 +31,6 @@ document.querySelector("form").addEventListener("submit", function(event) {
       return;
     }
   
-    alert("Dados enviados com sucesso!");
+    // alert("Dados enviados com sucesso!");
   });
   
