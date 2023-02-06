@@ -23,16 +23,16 @@ try {
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.hostinger.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'atendimento@italiantoldos.com.br';                     //SMTP username
+    $mail->Username   = 'atentimento@italiantoldos.com.br';                     //SMTP username
     $mail->Password   = 'o7j7$I1A';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('atendimento@italiantoldos.com.br', 'Italian Toldos');
+    $mail->setFrom('atentimento@italiantoldos.com.br', 'Italian Toldos');
     //$mail->addAddress('joe@example.net', 'Joe User');     //Add a recipient
-    $mail->addAddress('atendimento@italiantoldos.com.br');               //Name is optional
-    $mail->addReplyTo('atendimento@italiantoldos.com.br', 'Italian Toldos');
+    $mail->addAddress('atentimento@italiantoldos.com.br');               //Name is optional
+    $mail->addReplyTo('atentimento@italiantoldos.com.br', 'Italian Toldos');
     //$mail->addCC('cc@example.com');
     //$mail->addBCC('bcc@example.com');
 
